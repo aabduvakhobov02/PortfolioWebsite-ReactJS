@@ -64,7 +64,7 @@
         "level": "90%"
       },
       {
-        "name": "JavaScript",
+        "name": "JavaScript (ES5 - ES9)",
         "level": "85%"
       },
       {
@@ -77,21 +77,27 @@
       },
       {
         "name": "Redux",
-        "level": "60%"
+        "level": "70%"
       },
       {
         "name": "Git",
-        "level": "70%"
+        "level": "80%"
       },
 
       {
-        "name": "Web Development",
-        "level": "80%"
+        "name": "Next.JS",
+        "level": "50%"
       }
     ]
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "AirBNB Clone",
+        "category": "React, Next.JS, Mapbox",
+        "image": "linkedin.jpg",
+        "url": "https://youtu.be/QaYts9sPmcY"
+      },
       {
         "title": "My Burger",
         "category": "React, Router, Redux, CSS",
@@ -105,10 +111,10 @@
         "url": "https://gurman-app.web.app/"
       },
       {
-        "title": "LinkedIn Clone (React JS)",
-        "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "title": "Game Of Thrones DB",
+        "category": "React, React-Router, Bootstrap, Rest Api",
+        "image": "GOT.png",
+        "url": "https://gameofthrones-aeda2.web.app/"
       }
     ]
   }

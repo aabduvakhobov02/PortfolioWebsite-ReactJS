@@ -21,8 +21,7 @@ const Footer = ({ data }) => {
 
           <ul className="copyright">
             <li>
-              Made by{" "}
-              <span style={{ color: "white" }}>Abdubori Abduvakhobov</span>
+              Made by <span>Abdubori Abduvakhobov</span>
             </li>
           </ul>
         </div>

@@ -61,6 +61,13 @@ header .banner {
 
 header .banner-text {
   width: 100%;
+  padding: 5vw 0px 3vw;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 8px 0 #1c11b015;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 header .banner-text h1 {
   font: 90px/1.1em "opensans-bold", sans-serif;
@@ -71,7 +78,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
-  color: #aad0d6;
+  color: #f06000;
   margin: 0 auto;
   width: 70%;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
@@ -103,7 +110,7 @@ header .social li a {
   color: #fff;
 }
 header .social li a:hover {
-  color: #11abb0;
+  color: #f06000;
 }
 
 /* scrolldown link */
@@ -127,7 +134,7 @@ header .scrolldown a {
   transition: all 0.3s ease-in-out;
 }
 header .scrolldown a:hover {
-  color: #11abb0;
+  color: #f06000;
 }
 
 /* primary navigation
@@ -199,7 +206,7 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #11abb0;
+  color: #f06000;
 }
 
 /* ------------------------------------------------------------------ */
@@ -286,7 +293,7 @@ ul#nav li.current a {
   letter-spacing: 1px;
 }
 #resume h1 span {
-  border-bottom: 3px solid #11abb0;
+  border-bottom: 3px solid #f06000;
   padding-bottom: 6px;
 }
 #resume h3 {
@@ -980,7 +987,7 @@ call-to-action .button {
   background: #fff;
 }
 #contact span.required {
-  color: #11abb0;
+  color: #f06000;
   font-size: 13px;
 }
 #message-warning,
@@ -1060,6 +1067,10 @@ footer .copyright li {
   margin: 0;
   padding: 0;
   line-height: 24px;
+  color: rgb(255, 255, 255);
+}
+footer .copyright li span {
+  color: #f06000;
 }
 .ie footer .copyright li {
   display: inline;
@@ -1119,5 +1130,5 @@ footer .social-links li:first-child {
   border-radius: 100%;
 }
 #go-top a:hover {
-  background-color: #0f9095;
+  background-color: #f06000;
 }

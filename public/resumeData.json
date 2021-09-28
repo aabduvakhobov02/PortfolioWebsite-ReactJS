@@ -1,0 +1,115 @@
+{
+  "main": {
+    "name": "Abdubori Abduvakhobov",
+    "occupation": "Junior Front-End Developer",
+    "description": "Honest Person With Great Goals",
+    "image": "profilepic.jpg",
+    "bio": "Hi everybody, I am Abdubori Abduvakhobov. I am a junior web developer! Right now I am looking for great team where I can show my skills, hard work, and reach my full potential. Download my resume and do not hesitate to contact me any time!",
+    "contactmessage": "Get in touch to hire me!",
+    "email": "aabduvakhobov02@gmail.com",
+    "phone": "+998 99 0003280",
+    "address": {
+      "street": "Gulabad 15 11",
+      "city": "Tashkent",
+      "country": "Uzbekistan"
+    },
+    "website": "https://www.papareact.com/course",
+    "resumedownload": "resume.pdf",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/aabduvakhobov02",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/abduvakhobov_a/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/profile.php?id=100012956833811",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/abdubori-abduvakhobov-63b593145/",
+        "className": "fa fa-linkedin"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "Westminster International University in Tashkent",
+        "degree": "Bachelor's Degree, Business Information Systems",
+        "graduated": "Present",
+        "description": "Level 6 Student"
+      },
+      {
+        "school": "Academic Lyceum inder Westminster International University in Tashkent",
+        "degree": "Science",
+        "graduated": "July 2018",
+        "description": "Graduated with First Class Honours"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "99%"
+      },
+      {
+        "name": "CSS, Sass, Less",
+        "level": "90%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "85%"
+      },
+      {
+        "name": "React",
+        "level": "90%"
+      },
+      {
+        "name": "React-Router",
+        "level": "80%"
+      },
+      {
+        "name": "Redux",
+        "level": "60%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+
+      {
+        "name": "Web Development",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "My Burger",
+        "category": "React, Router, Redux, CSS",
+        "image": "myburger.png",
+        "url": "https://gurman-myburger.web.app/"
+      },
+      {
+        "title": "Gurman",
+        "category": "React, Redux, React-Router, Sass, Firebase-Database",
+        "image": "gurman.png",
+        "url": "https://gurman-app.web.app/"
+      },
+      {
+        "title": "LinkedIn Clone (React JS)",
+        "category": "",
+        "image": "linkedin.jpg",
+        "url": "https://youtu.be/QaYts9sPmcY"
+      }
+    ]
+  }
+}

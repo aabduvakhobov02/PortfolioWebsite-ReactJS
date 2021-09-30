@@ -2,12 +2,13 @@ import React from "react";
 import TypeWriter from "react-typewriter";
 
 const Header = ({ data }) => {
+  let name, occupation, description, city, networks;
   if (data) {
-    var name = data.name;
-    var occupation = data.occupation;
-    var description = data.description;
-    var city = data.address.city;
-    var networks = data.social.map(function (network) {
+    name = data.name;
+    occupation = data.occupation;
+    description = data.description;
+    city = data.address.city;
+    networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
           <a href={network.url}>
@@ -65,7 +66,7 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+            <TypeWriter typing={0.5}>{name ? `I'm ${name}` : null}</TypeWriter>
           </h1>
           <h3>
             Lives in {city}. <span>{occupation}</span>. {description}.

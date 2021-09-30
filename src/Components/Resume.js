@@ -1,9 +1,10 @@
 import React from "react";
 
 const Resume = ({ data }) => {
+  let skillmessage, education;
   if (data) {
-    var skillmessage = data.skillmessage;
-    var education = data.education.map(function (education) {
+    skillmessage = data.skillmessage;
+    education = data.education.map(function (education) {
       return (
         <div key={education.school}>
           <h3>{education.school}</h3>
@@ -15,7 +16,8 @@ const Resume = ({ data }) => {
         </div>
       );
     });
-    // var work = data.work.map(function (work) {
+    // let work;
+    // work = data.work.map(function (work) {
     //   return (
     //     <div key={work.company}>
     //       <h3>{work.company}</h3>
@@ -27,8 +29,9 @@ const Resume = ({ data }) => {
     //     </div>
     //   );
     // });
-    var skills = data.skills.map(function (skills) {
-      var className = "bar-expand " + skills.name.toLowerCase();
+    let skills, className;
+    skills = data.skills.map(function (skills) {
+      className = "bar-expand " + skills.name.toLowerCase();
       return (
         <li key={skills.name}>
           <span style={{ width: skills.level }} className={className}></span>

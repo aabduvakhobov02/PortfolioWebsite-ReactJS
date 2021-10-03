@@ -1,6 +1,6 @@
 # The Link of the Deployed Project:
 
-`https://abduvakhobov.web.app/`
+https://abduvakhobov.web.app/
 
 ## Getting Started with Create React App
 

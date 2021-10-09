@@ -94,9 +94,9 @@
     "projects": [
       {
         "title": "AirBNB Clone",
-        "category": "React, Next.JS, Mapbox",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "category": "React, Next.JS, Tailwind CSS, Mapbox",
+        "image": "airbnb.png",
+        "url": "https://airbnb-clone-aabduvakhobov02.vercel.app/"
       },
       {
         "title": "My Burger",
